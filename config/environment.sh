@@ -4,7 +4,6 @@
 export ENCRYPTION_KEY=$(head -c 32 /dev/urandom | base64)
 
 # 最好使用当前未用的网段来定义服务网段和Pod网段
-
 # 服务网段，部署前路由不可达，部署后集群内路由可达(kube-proxy 和 ipvs 保证)
 export SERVICE_CIDR="10.254.0.0/16"
 
