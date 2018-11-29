@@ -1,8 +1,10 @@
 #!/bin/bash
-
+#
 #author:eryajf
 #blog:www.eryajf.net
 #time:2018-11
+#version:v1
+#
 
 base_dir=$(pwd)
 set -e
